@@ -1,0 +1,97 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - AlamofireObjectMapper (6.2.0):
+    - Alamofire (= 5.0.0-rc.2)
+    - ObjectMapper (~> 3.5.1)
+  - MaterialComponents/AnimationTiming (119.5.0)
+  - MaterialComponents/Availability (119.5.0)
+  - MaterialComponents/Buttons (119.5.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (119.5.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (119.5.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (119.5.0)
+  - MaterialComponents/private/Application (119.5.0)
+  - MaterialComponents/private/Color (119.5.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (119.5.0)
+  - MaterialComponents/Ripple (119.5.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (119.5.0)
+  - MaterialComponents/ShadowLayer (119.5.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (119.5.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (119.5.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/TextFields (119.5.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (119.5.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - ObjectMapper (3.5.3)
+  - Realm (10.4.0):
+    - Realm/Headers (= 10.4.0)
+  - Realm/Headers (10.4.0)
+  - RealmSwift (10.4.0):
+    - Realm (= 10.4.0)
+
+DEPENDENCIES:
+  - AlamofireObjectMapper (= 6.2.0)
+  - MaterialComponents/TextFields
+  - RealmSwift (= 10.4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  AlamofireObjectMapper: 74d1440c92c42bbcc2b5f4dc81654ac095ec669f
+  MaterialComponents: 2cdc12c16528ed7e6f1d5bd6d6927c47f9f4e90f
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  Realm: d8466b2238f034a5ff7a031aed63b7dacdf0dd10
+  RealmSwift: 37a93ae742667948cc094a3c6ae3d006db32b66f
+
+PODFILE CHECKSUM: 470a6493a3ab005d98c440d78a9cd0e716ec1879
+
+COCOAPODS: 1.10.0

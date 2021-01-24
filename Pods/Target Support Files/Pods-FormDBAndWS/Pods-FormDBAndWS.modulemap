@@ -1,0 +1,6 @@
+framework module Pods_FormDBAndWS {
+  umbrella header "Pods-FormDBAndWS-umbrella.h"
+
+  export *
+  module * { export * }
+}
