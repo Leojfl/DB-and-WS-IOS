@@ -18,16 +18,21 @@ class FormDBAndWSTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testFunctionsPerson() throws {
+        let person = Person(name: "Test",lastName: "Flores",email: "test@test.com", age: 18, gender: 1, weight: 60, height: 1.60)
+        
+        //test method calculeIMC
+        assert(person.calculeIMC() == 0)
+        person.setWeight(weight: 40)
+        assert(person.calculeIMC() == -1)
+        person.setWeight(weight: 80)
+        assert(person.calculeIMC() == 1)
+        
+        //test method isAdult if the person is adult
+        assert(person.isAdult())
+        person.setAge(age: 15)
+        assert(!person.isAdult())
+        assert(person.getNSS() != Person.generateNSS())
     }
 
 }
